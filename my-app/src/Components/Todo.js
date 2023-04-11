@@ -1,8 +1,9 @@
 // main class
 
-import React from "react";
+import React, { useState } from "react";
 
 const Todo = () => {
+  const [value, setValue] = useState("");
   return (
     <section className=' w-[90vw] max-w-[35rem] mt-32 mx-auto my-0 rounded shadow-[0_5px_15px_rgba(0,0,0,0.1))] transition-all duration-[0.3s] ease-linear p-8 hover:shadow-[0_5px_15px_rgba(0,0,0,0.5)] bg-violet-100'>
       <form className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 text-center'>
